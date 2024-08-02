@@ -39,7 +39,69 @@
 // ********************
 //4.JavaScript Program to Find the Square Root
 // ********************
-function squareRoot(num) {
-  let sqrt = Math.sqrt(num);
-  return `Square root of ${num} is ${sqrt}`;
+// function squareRoot(num) {
+//   let sqrt = Math.sqrt(num);
+//   return `Square root of ${num} is ${sqrt}`;
+// }
+
+// ********************
+// 5. Javascript Program to Generate a Random Number
+// ********************
+// function random() {
+//   let randomNum = Math.ceil(Math.random() * 10);
+//   return randomNum
+// }
+
+// ********************
+// 6. Javascript Program to Check if a number is Positive, Negative, or Zero
+// ********************
+// function number(num) {
+//   if (num === 0) {
+//     return `${num} is Zero`;
+//   } else if (num > 0) {
+//     return `${num} is a positive number`;
+//   } else if (num < 0) {
+//     return `${num} is a negative number`;
+//   }
+// }
+
+// ********************
+// 7. Javascript Program to Check if a Number is Odd or Even
+// ********************
+// function number(num){
+//   if(num % 2 === 0){
+//     return `${num} is an Even Number`
+//   } else{
+//     return `${num} is an Odd Number`
+//   }
+// }
+
+// ********************
+// 8.  JavaScript Program to Find the Largest Among Three Numbers
+// ********************
+// function number(a, b, c) {
+//   if (a > b && a > c) {
+//     return `${a}`;
+//   }
+//    else if (b > a && b > c) {
+//     return `${b}`;
+//   }
+//    else if (c > a && c > b) {
+//     return `${c}`;
+//   }
+// }
+
+// ********************
+// 9. JavaScript Program to Check Prime Number
+// ********************
+function isPrime(num) {
+  if (num === 1 || num === 0) {
+    return `${num} is not a prime number`;
+  }
+  for (let i = num - 1; i > 1; i--) {
+   if (num % i === 0) {
+      return `${num} is not a prime number`;
+    }
+  }
+  return `${num} is a prime number`;
 }
