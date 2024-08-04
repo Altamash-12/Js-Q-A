@@ -94,14 +94,51 @@
 // ********************
 // 9. JavaScript Program to Check Prime Number
 // ********************
-function isPrime(num) {
-  if (num === 1 || num === 0) {
-    return `${num} is not a prime number`;
-  }
-  for (let i = num - 1; i > 1; i--) {
-   if (num % i === 0) {
-      return `${num} is not a prime number`;
-    }
-  }
-  return `${num} is a prime number`;
-}
+// function isPrime(num) {
+//   if (num === 1 || num === 0) {
+//     return `${num} is not a prime number`;
+//   }
+//   for (let i = num - 1; i > 1; i--) {
+//    if (num % i === 0) {
+//       return `${num} is not a prime number`;
+//     }
+//   }
+//   return `${num} is a prime number`;
+// }
+
+// ********************
+// 10. JavaScript Program to Swap Two Variables
+// ********************
+// function fullName(name, surname){
+//   return `name : ${surname}, surname: ${name}`
+// }
+
+// ********************
+// 11. JavaScript Program to Convert Kilometers to Miles
+// ********************
+// function Kilometer(num){
+//   return `${num}km is equal to ${num * 0.621371} miles`
+// }
+
+// ********************
+// 12. Javascript Program to Convert Celsius to Fahrenheit
+// ********************
+// function degree(num){
+//   return `${num} degree celcius is equal to ${num * 33.8} Fahrenheit`
+// }
+
+// ********************
+// 13. Javascript Program to find the factorial of a number
+// ********************
+// function factorial(num) {
+//   let answer = 1;
+//   for (let i = num; i > 0; i--) {
+//     answer = answer * i;
+//   }
+//   return answer;
+// }
+
+// ********************
+// 14. JavaScript Program to Display the Multiplication Table
+// ********************
+function number(num) {}
